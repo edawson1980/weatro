@@ -285,7 +285,6 @@ Station.create(
   photo_url: " photo_url"
   )
 
-=======
 Station.create(
   locationCode: "A01",
   city: "Washington",
@@ -398,12 +397,11 @@ Station.create(
   address: "251 Hungerford Drive",
   photo_url: " photo_url"
 )
->>>>>>> f213559768e0aef96403514d9810b6f50d40ee21
+
 Station.create(
   locationCode: "G02",
   city: "Capitol Heights",
   state: "MD",
-<<<<<<< HEAD
   name: "Capitol Heights",
   address: "133 Central Avenue",
   photo_url: " photo_url"
@@ -554,12 +552,7 @@ Station.create(
   address: "1862 Wiehle Avenue",
   photo_url: " photo_url"
   )
->>>>>>> EEDseed
-=======
-  name: "Shady Grove",
-  address: "15903 Somerville Drive",
-  photo_url: "photo_url "
-)
+
 Station.create(
   locationCode: "B01",
   city: "Washington",
@@ -800,5 +793,3 @@ Station.create(
   address: "401 3rd Street SW",
   photo_url: "photo_url"
 )
-# >>>>>>> ick_seeds
->>>>>>> f213559768e0aef96403514d9810b6f50d40ee21
