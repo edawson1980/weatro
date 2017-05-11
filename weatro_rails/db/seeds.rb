@@ -6,8 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Station.destroy_all
-Vote.destroy_all
+# Station.destroy_all
 
 Station.create(
   locationCode: "A01",
@@ -369,4 +368,3 @@ Station.create(
   address: "401 3rd Street SW",
   photo_url: "photo_url"
 )
-# >>>>>>> ick_seeds
