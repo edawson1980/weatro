@@ -10,9 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20170511191303) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "stations", force: :cascade do |t|
+    t.string   "locationCode"
+    t.string   "state"
+    t.string   "city"
+    t.string   "name"
+    t.string   "address"
+    t.string   "photo_url"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  create_table "votes", force: :cascade do |t|
+    t.string   "score"
+    t.integer  "station_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["station_id"], name: "index_votes_on_station_id", using: :btree
+  end
 
 end
