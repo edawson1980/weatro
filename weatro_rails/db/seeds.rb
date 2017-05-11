@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Station.destroy_all
+Station.destroy_all
 
 
 
@@ -396,6 +396,7 @@ Station.create(
   address: "251 Hungerford Drive",
   photo_url: " photo_url"
 )
+
 Station.create(
   locationCode: "G02",
   city: "Capitol Heights",
@@ -547,8 +548,8 @@ Station.create(
   state: "VA",
   name: "Wiehle-Reston East",
   address: "1862 Wiehle Avenue",
-  photo_url: " photo_url"
-)
+photo_url: " photo_url")
+
 Station.create(
   locationCode: "B01",
   city: "Washington",
