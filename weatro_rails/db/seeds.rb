@@ -10,7 +10,14 @@ Station.destroy_all
 
 
 
-
+Station.create(
+locationCode: "A15",
+state: "MD",
+city: "Rockville",
+name: "Shady Grove",
+address: "15903 Somerville Drive",
+photo_url: " photo_url"
+)
 Station.create(
   locationCode: "D05",
   city: "Washington",
