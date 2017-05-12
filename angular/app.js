@@ -39,9 +39,7 @@ angular
   }
 
   function FactoryFunction($resource) {
-    return $resource("http://localhost:3000/stations/:id", {}, {
-      update: {method: "PUT"}
-    });
+    return $resource("http://localhost:3000/stations/:id")
   }
 
   function StationIndexControllerFunction(WeatroFactory){
