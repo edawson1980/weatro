@@ -1,7 +1,16 @@
 class StationsController < ApplicationController
+
+  include ActiveModel::Serialization
+    ##i don't know if this goes here, or in the station model. or even in the ApplicationController, since
+    ##everything else inherits from there.
+
   def index
       @stations = Station.all
-      render json: @stations
+
+      respond_to do |format|
+        format.html {render :show}
+        format.json {render station.as_json({include: :votes}, only: [:locationCode, :city, :state])}
+    end
     end
 
     def show
