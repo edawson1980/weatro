@@ -9,10 +9,6 @@ angular
   ])
   .factory("WeatroFactory", [
     "$resource",
-    WeatroFactoryFunction
-  ])
-  .factory("WeatroFactory", [
-    "$resource",
     FactoryFunction
   ])
   .controller("StationIndexController", [
@@ -30,13 +26,13 @@ angular
     $stateProvider
     .state("stationIndex", {
       url: "/stations",
-      templateUrl: "js/ng-views/index.html",
+      templateUrl: "/ng-views/index.html",
       controller: "StationIndexController",
       controllerAs: "vm"
     })
     .state("stationShow", {
       url: "/stations/:id",
-      templateUrl: "js/ng-views/show.html",
+      templateUrl: "/ng-views/show.html",
       controller: "StationShowController",
       controllerAs: "vm"
     })
