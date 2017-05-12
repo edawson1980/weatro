@@ -1,7 +1,3 @@
-<select id="station-select">
-<option value="">Select your Station</option>
-<option data-ng-repeat="station in vm.stations">{{station.name}}</option>
-</select>
 
 <div data-ng-repeat="station in vm.stations">
   <p><a data-ui-sref="stationShow({id: station.id})">{{station.name}}</a></p>
