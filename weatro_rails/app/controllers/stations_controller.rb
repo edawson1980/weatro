@@ -24,7 +24,7 @@ class StationsController < ApplicationController
     def update
       @station = Station.find(params[:id])
       @station.update!(station_params)
-      render json: @station, , include: :votes
+      render json: @station, include: :votes
     end
 
     def destroy
