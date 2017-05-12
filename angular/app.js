@@ -49,6 +49,3 @@ angular
   function StationShowControllerFunction(WeatroFactory, $stateParams) {
     this.station = WeatroFactory.get({id: $stateParams.id});
   }
-
-
-  
