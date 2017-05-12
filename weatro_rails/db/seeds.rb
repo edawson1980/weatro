@@ -7,8 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Station.destroy_all
+Vote.destroy_all
 
-
+Vote.create(
+score: "sucks", station_id: 1
+)
 
 Station.create(
 locationCode: "A15",

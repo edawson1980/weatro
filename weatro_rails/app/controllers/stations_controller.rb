@@ -4,29 +4,27 @@ class StationsController < ApplicationController
     ##i don't know if this goes here, or in the station model. or even in the ApplicationController, since
     ##everything else inherits from there.
 
-  def index
+    def index
       @stations = Station.all
+      render json: @stations, include: :votes
+    end
 
-      respond_to do |format|
-        format.html {render :show}
-        format.json {render station.as_json({include: :votes}, only: [:locationCode, :city, :state])}
-    end
-    end
+
 
     def show
       @station = Station.find(params[:id])
-      render json: @station
+      render json: @station, include: :votes
     end
 
     def create
       @station = Station.create!(station_params)
-      render json: @station
+      render json: @station, include: :votes
     end
 
     def update
       @station = Station.find(params[:id])
       @station.update!(station_params)
-      render json: @station
+      render json: @station, , include: :votes
     end
 
     def destroy
