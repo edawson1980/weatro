@@ -27,7 +27,7 @@ Station.create(
   state: "DC",
   name: "Capitol South",
   address: "355 First Street SE",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "D06",
@@ -35,7 +35,7 @@ Station.create(
   state: "DC",
   name: "Eastern Market",
   address: "701 Pennsylvania Avenue SE",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "D07",
@@ -43,7 +43,7 @@ Station.create(
   state: "DC",
   name: "Potomac Ave",
   address: "700 14th Street SE",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "D08",
@@ -51,7 +51,7 @@ Station.create(
   state: "DC",
   name: "Stadium-Armory",
   address: "192 19th St. SE",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "D09",
@@ -59,7 +59,7 @@ Station.create(
   state: "DC",
   name: "Minnesota Ave",
   address: "4000 Minnesota Avenue NE",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 Station.create(
   locationCode: "D10",
@@ -67,7 +67,7 @@ Station.create(
   state: "DC",
   name: "Deanwood",
   address: "4720 Minnesota Avenue NE",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 Station.create(
   locationCode: "D11",
@@ -75,7 +75,7 @@ Station.create(
   state: "MD",
   name: "Cheverly",
   address: "5501 Columbia Park",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 
 Station.create(
@@ -84,7 +84,7 @@ Station.create(
   state: "MD",
   name: "Landover",
   address: "3000 Pennsy Drive",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 
 Station.create(
@@ -93,7 +93,7 @@ Station.create(
   state: "MD",
   name: "New Carrollton",
   address: "4700 Garden City Drive",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 
 Station.create(
@@ -102,7 +102,7 @@ Station.create(
   state: "DC",
   name: "Shaw-Howard U",
   address: "1701 8th St. NW",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -111,7 +111,7 @@ Station.create(
   state: "DC",
   name: "U Street/African-Amer Civil War Memorial/Cardozo",
   address: "1240 U Street NW",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -120,7 +120,7 @@ Station.create(
   state: "DC",
   name: "Columbia Heights",
   address: "3030 14th St. NW",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -129,7 +129,7 @@ Station.create(
   state: "DC",
   name: "Georgia Ave-Petworth",
   address: "3700 Georgia Avenue NW",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -138,7 +138,7 @@ Station.create(
   state: "DC",
   name: "Fort Totten",
   address: "550 Galloway Street NE",
-  photo_url: "/images/wmata_lines/transfers/R_Y_G.jpg"
+  photo_url: "http://i.imgur.com/4bcXaSQ.jpg"
 )
 
 Station.create(
@@ -147,7 +147,7 @@ Station.create(
   state: "MD",
   name: "West Hyattsville",
   address: "2700 Hamilton St.",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -156,7 +156,7 @@ Station.create(
   state: "MD",
   name: "Prince George's Plaza",
   address: "3575 East West Highway",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -165,7 +165,7 @@ Station.create(
   state: "MD",
   name: "College Park-U of Md",
   address: "4931 Calvert Road",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -174,7 +174,7 @@ Station.create(
   state: "MD",
   name: "Greenbelt",
   address: "5717 Greenbelt Metro Drive",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -183,7 +183,7 @@ Station.create(
   state: "DC",
   name: "Gallery Pl-Chinatown",
   address: "630 H St. NW",
-  photo_url: "/images/wmata_lines/transfers/R_Y_G.jpg"
+  photo_url: "http://i.imgur.com/4bcXaSQ.jpg"
 )
 
 Station.create(
@@ -192,7 +192,7 @@ Station.create(
   state: "DC",
   name: "Archives-Navy Memorial-Penn Quarter",
   address: "701 Pennsylvania Avenue NW",
-  photo_url: "/images/wmata_lines/Y_G.jpg"
+  photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
 
 Station.create(
@@ -201,7 +201,7 @@ Station.create(
   state: "DC",
   name: "L'Enfant Plaza",
   address: "600 Maryland Avenue SW",
-  photo_url: "/images/wmata_lines/transfers/B_O_S_Y_G.jpg"
+  photo_url: "http://i.imgur.com/HfW290G.jpg"
 )
 
 Station.create(
@@ -210,7 +210,7 @@ Station.create(
   state: "DC",
   name: "Waterfront",
   address: "399 M Street SW",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -219,7 +219,7 @@ Station.create(
   state: "DC",
   name: "Navy Yard-Ballpark",
   address: "200 M Street SE",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -228,7 +228,7 @@ Station.create(
   state: "DC",
   name: "Anacostia",
   address: "1101 Howard Road SE",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -237,7 +237,7 @@ Station.create(
   state: "DC",
   name: "Congress Heights",
   address: "1290 Alabama Avenue SE",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -246,7 +246,7 @@ Station.create(
   state: "MD",
   name: "Southern Avenue",
   address: "1411 Southern Avenue",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -255,7 +255,7 @@ Station.create(
   state: "MD",
   name: "Naylor Road",
   address: "3101 Branch Avenue",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -264,7 +264,7 @@ Station.create(
   state: "MD",
   name: "Suitland",
   address: "4500 Silver Hill Road",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -273,7 +273,7 @@ Station.create(
   state: "MD",
   name: "Branch Ave",
   address: "4704 Old Soper Road",
-  photo_url: "/images/wmata_lines/wmata_G.jpg"
+  photo_url: "http://i.imgur.com/GK3bvQ8.jpg"
 )
 
 Station.create(
@@ -299,7 +299,7 @@ Station.create(
   state: "DC",
   name: "Farragut North",
   address: "1001 Connecticut Avenue NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A03",
@@ -307,7 +307,7 @@ Station.create(
   state: "DC",
   name: "Dupont Circle",
   address: "1525 20th St. NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A04",
@@ -315,7 +315,7 @@ Station.create(
   state: "DC",
   name: "Woodley Park-Zoo/Adams Morgan",
   address: "2700 Connecticut Ave., NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A05",
@@ -323,7 +323,7 @@ Station.create(
   state: "DC",
   name: "Cleveland Park",
   address: "3599 Connecticut Avenue NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A06",
@@ -331,7 +331,7 @@ Station.create(
   state: "DC",
   name: "Van Ness-UDC",
   address: "4200 Connecticut Avenue NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A07",
@@ -339,7 +339,7 @@ Station.create(
   state: "DC",
   name: "Tenleytown-AU",
   address: "4501 Wisconsin Avenue NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A08",
@@ -347,7 +347,7 @@ Station.create(
   state: "DC",
   name: "Friendship Heights",
   address: "5337 Wisconsin Avenue NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A09",
@@ -355,7 +355,7 @@ Station.create(
   state: "MD",
   name: "Bethesda",
   address: "7450 Wisconsin Avenue",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A10",
@@ -363,7 +363,7 @@ Station.create(
   state: "MD",
   name: "Medical Center",
   address: "8810 Rockville Pike",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A11",
@@ -371,7 +371,7 @@ Station.create(
   state: "MD",
   name: "Grosvenor-Strathmore",
   address: "10300 Rockville Pike",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A12",
@@ -379,7 +379,7 @@ Station.create(
   state: "MD",
   name: "White Flint",
   address: "5500 Marinelli Road",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A13",
@@ -387,7 +387,7 @@ Station.create(
   state: "MD",
   name: "Twinbrook",
   address: "1600 Chapman Avenue",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A14",
@@ -395,7 +395,7 @@ Station.create(
   state: "MD",
   name: "Rockville",
   address: "251 Hungerford Drive",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
 )
 
 Station.create(
@@ -404,7 +404,7 @@ Station.create(
   state: "MD",
   name: "Capitol Heights",
   address: "133 Central Avenue",
-  photo_url: "/images/wmata_lines/B_S.jpg"
+  photo_url: "http://i.imgur.com/G8ks7Cp.jpg"
 )
 Station.create(
   locationCode: "G03",
@@ -412,7 +412,7 @@ Station.create(
   state: "MD",
   name: "Addison Road-Seat Pleasant",
   address: "100 Addison Road S.",
-  photo_url: "/images/wmata_lines/B_S.jpg"
+  photo_url: "http://i.imgur.com/G8ks7Cp.jpg"
 )
 
 Station.create(
@@ -421,7 +421,7 @@ Station.create(
   state: "MD",
   name: "Morgan Boulevard",
   address: "300 Garrett Morgan Blvd.",
-  photo_url: "/images/wmata_lines/B_S.jpg"
+  photo_url: "http://i.imgur.com/G8ks7Cp.jpg"
 )
 
 Station.create(
@@ -430,7 +430,7 @@ Station.create(
   state: "MD",
   name: "Largo Town Center",
   address: "Largo Town Center 9000 Lottsford Road",
-  photo_url: "/images/wmata_lines/B_S.jpg"
+  photo_url: "http://i.imgur.com/G8ks7Cp.jpg"
 )
 
 Station.create(
@@ -439,7 +439,7 @@ Station.create(
   state: "VA",
   name: "Van Dorn Street",
   address: "5690 Eisenhower Avenue",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 
 Station.create(
@@ -448,7 +448,7 @@ Station.create(
   state: "VA",
   name: "Franconia-Springfield",
   address: "6880 Frontier Drive",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 
 Station.create(
@@ -457,7 +457,7 @@ Station.create(
   state: "VA",
   name: "Court House",
   address: "2100 Wilson Blvd",
-  photo_url: "/images/wmata_lines/transfers/O_S.jpg"
+  photo_url: "http://i.imgur.com/iY45bHT.jpg"
 )
 
 Station.create(
@@ -466,7 +466,7 @@ Station.create(
   state: "VA",
   name: "Clarendon",
   address: "3100 Wilson Blvd",
-  photo_url: "/images/wmata_lines/transfers/O_S.jpg"
+  photo_url: "http://i.imgur.com/iY45bHT.jpg"
 )
 
 Station.create(
@@ -475,7 +475,7 @@ Station.create(
   state: "VA",
   name: "Virginia Square-GMU",
   address: "3600 Fairfax Drive",
-  photo_url: "/images/wmata_lines/transfers/O_S.jpg"
+  photo_url: "http://i.imgur.com/iY45bHT.jpg"
 )
 
 Station.create(
@@ -484,7 +484,7 @@ Station.create(
   state: "VA",
   name: "Ballston-MU",
   address: "4230 Fairfax Drive",
-  photo_url: "/images/wmata_lines/transfers/O_S.jpg"
+  photo_url: "http://i.imgur.com/iY45bHT.jpg"
 )
 
 Station.create(
@@ -493,7 +493,7 @@ Station.create(
   state: "VA",
   name: "West Falls Church-VT/UVA",
   address: "7040 Haycock Road",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 
 Station.create(
@@ -502,7 +502,7 @@ Station.create(
   state: "VA",
   name: "Dunn Loring-Merrifield",
   address: "2700 Gallows Road",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 
 Station.create(
@@ -511,7 +511,7 @@ Station.create(
   state: "VA",
   name: "Vienna/Fairfax-GMU",
   address: "9550 Saintsbury Drive",
-  photo_url: "/images/wmata_lines/wmata_O.jpg"
+  photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
 
 Station.create(
@@ -520,7 +520,7 @@ Station.create(
   state: "VA",
   name: "McLean",
   address: "1824 Dolley Madison Boulevard",
-  photo_url: "/images/wmata_lines/wmata_S.jpg"
+  photo_url: "http://i.imgur.com/X9SljnM.jpg"
 )
 
 Station.create(
@@ -529,7 +529,7 @@ Station.create(
   state: "VA",
   name: "Tysons Corner",
   address: "1943 Chain Bridge Road",
-  photo_url: "/images/wmata_lines/wmata_S.jpg"
+  photo_url: "http://i.imgur.com/X9SljnM.jpg"
 )
 
 Station.create(
@@ -538,7 +538,7 @@ Station.create(
   state: "VA",
   name: "Greensboro",
   address: "8305 Leesburg Pike",
-  photo_url: "/images/wmata_lines/wmata_S.jpg"
+  photo_url: "http://i.imgur.com/X9SljnM.jpg"
 )
 
 
@@ -548,7 +548,7 @@ Station.create(
   state: "VA",
   name: "Spring Hill",
   address: "1576 Spring Hill Road",
-  photo_url: "/images/wmata_lines/wmata_S.jpg"
+  photo_url: "http://i.imgur.com/X9SljnM.jpg"
 )
 
 Station.create(
@@ -557,7 +557,7 @@ Station.create(
   state: "VA",
   name: "Wiehle-Reston East",
   address: "1862 Wiehle Avenue",
-  photo_url: "/images/wmata_lines/wmata_S.jpg"
+  photo_url: "http://i.imgur.com/X9SljnM.jpg"
 )
 
 Station.create(
@@ -566,7 +566,7 @@ Station.create(
   state: "DC",
   name: "Gallery Pl-Chinatown",
   address: "630 H St. NW",
-  photo_url: "/images/wmata_lines/transfers/R_Y_G.jpg"
+  photo_url: "http://i.imgur.com/4bcXaSQ.jpg"
 )
 Station.create(
   locationCode: "B02",
@@ -574,7 +574,7 @@ Station.create(
   state: "DC",
   name: "Judiciary Square",
   address: "450 F Street NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B03",
@@ -582,7 +582,7 @@ Station.create(
   state: "DC",
   name: "Union Station",
   address: "701 First St. NE",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B04",
@@ -590,7 +590,7 @@ Station.create(
   state: "DC",
   name: "Rhode Island Ave-Brentwood",
   address: "919 Rhode Island Avenue NE",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B05",
@@ -598,7 +598,7 @@ Station.create(
   state: "DC",
   name: "Brookland-CUA",
   address: "801 Michigan Avenue NE",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B06",
@@ -606,7 +606,7 @@ Station.create(
   state: "DC",
   name: "Fort Totten",
   address: "550 Galloway Street NE",
-  photo_url: "/images/wmata_lines/transfers/R_Y_G.jpg"
+  photo_url: "http://i.imgur.com/4bcXaSQ.jpg"
 )
 Station.create(
   locationCode: "B07",
@@ -614,7 +614,7 @@ Station.create(
   state: "DC",
   name: "Takoma",
   address: "327 Cedar Street NW",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B08",
@@ -622,7 +622,7 @@ Station.create(
   state: "MD",
   name: "Silver Spring",
   address: "8400 Colesville Road",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B09",
@@ -630,7 +630,7 @@ Station.create(
   state: "MD",
   name: "Forest Glen",
   address: "9730 Georgia Avenue",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B10",
@@ -638,7 +638,7 @@ Station.create(
   state: "MD",
   name: "Wheaton",
   address: "11171 Georgia Avenue",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B11",
@@ -646,7 +646,7 @@ Station.create(
   state: "MD",
   name: "Glenmont",
   address: "12501 Georgia Avenue",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "B35",
@@ -654,7 +654,7 @@ Station.create(
   state: "DC",
   name: "NoMa-Gallaudet U",
   address: "200 Florida Ave N.E.",
-  photo_url: "/images/wmata_lines/wmata_R.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "C01",
@@ -662,7 +662,7 @@ Station.create(
   state: "DC",
   name: "Metro Center",
   address: "607 13th St. NW",
-  photo_url: "/images/wmata_lines/transfers/B_O_S_R.jpg"
+  photo_url: "http://i.imgur.com/JWFTT0N.jpg"
 )
 Station.create(
   locationCode: "C02",
@@ -670,7 +670,7 @@ Station.create(
   state: "DC",
   name: "McPherson Square",
   address: "1400 I St. NW",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "C03",
@@ -678,7 +678,7 @@ Station.create(
   state: "DC",
   name: "Farragut West",
   address: "900 18th St. NW",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "C04",
@@ -686,7 +686,7 @@ Station.create(
   state: "DC",
   name: "Foggy Bottom-GWU",
   address: "2301 I St. NW",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "C05",
@@ -694,7 +694,7 @@ Station.create(
   state: "VA",
   name: "Rosslyn",
   address: "1850 N. Moore Street",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "C06",
@@ -702,7 +702,7 @@ Station.create(
   state: "VA",
   name: "Arlington Cemetery",
   address: "1000 North Memorial Drive",
-  photo_url: "/images/wmata_lines/wmata_B.jpg"
+  photo_url: "http://i.imgur.com/tBe1KB8.jpg"
 )
 Station.create(
   locationCode: "C07",
@@ -710,7 +710,7 @@ Station.create(
   state: "VA",
   name: "Pentagon",
   address: "2 South Rotary Road",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 Station.create(
   locationCode: "C08",
@@ -718,7 +718,7 @@ Station.create(
   state: "VA",
   name: "Pentagon City",
   address: "1250 South Hayes St.",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 Station.create(
   locationCode: "C09",
@@ -726,7 +726,7 @@ Station.create(
   state: "VA",
   name: "Crystal City",
   address: "1750 South Clark St.",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 Station.create(
   locationCode: "C10",
@@ -734,7 +734,7 @@ Station.create(
   state: "VA",
   name: "Ronald Reagan Washington National Airport",
   address: "2400 S. Smith Blvd.",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 Station.create(
   locationCode: "C12",
@@ -742,7 +742,7 @@ Station.create(
   state: "VA",
   name: "Braddock Road",
   address: "700 N. West St.",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 Station.create(
   locationCode: "C13",
@@ -750,7 +750,7 @@ Station.create(
   state: "VA",
   name: "King St-Old Town",
   address: "1900 King Street",
-  photo_url: "/images/wmata_lines/transfers/B_Y.jpg"
+  photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
 Station.create(
   locationCode: "C14",
@@ -758,7 +758,7 @@ Station.create(
   state: "VA",
   name: "Eisenhower Avenue",
   address: "2400 Eisenhower Avenue",
-  photo_url: "/images/wmata_lines/wmata_Y.jpg"
+  photo_url: "http://i.imgur.com/R0TyF1z.jpg"
 )
 Station.create(
   locationCode: "C15",
@@ -766,7 +766,7 @@ Station.create(
   state: "VA",
   name: "Huntington",
   address: "2501 Huntington Ave",
-  photo_url: "/images/wmata_lines/wmata_Y.jpg"
+  photo_url: "http://i.imgur.com/R0TyF1z.jpg"
 )
 Station.create(
   locationCode: "D01",
@@ -774,7 +774,7 @@ Station.create(
   state: "DC",
   name: "Federal Triangle",
   address: "302 12th St. NW",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "D02",
@@ -782,7 +782,7 @@ Station.create(
   state: "DC",
   name: "Smithsonian",
   address: "1200 Independence Avenue SW",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
 Station.create(
   locationCode: "D03",
@@ -790,7 +790,7 @@ Station.create(
   state: "DC",
   name: "L'Enfant Plaza",
   address: "600 Maryland Avenue SW",
-  photo_url: "/images/wmata_lines/transfers/B_O_S_Y_G.jpg"
+  photo_url: "http://i.imgur.com/HfW290G.jpg"
 )
 Station.create(
   locationCode: "D04",
@@ -798,5 +798,5 @@ Station.create(
   state: "DC",
   name: "Federal Center SW",
   address: "401 3rd Street SW",
-  photo_url: "/images/wmata_lines/transfers/O_S_B.jpg"
+  photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
