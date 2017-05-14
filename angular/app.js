@@ -11,6 +11,7 @@ angular
     "$resource",
     FactoryFunction
   ])
+
   .controller("StationIndexController", [
     "WeatroFactory",
     StationIndexControllerFunction
