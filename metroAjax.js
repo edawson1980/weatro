@@ -1,17 +1,40 @@
 $("#showButton").on("click", () => {
   // Make sure to add your API key to the URL!
-  var city = $("#city").html()
-  var state = $("#state").html()
-  var url ='http://api.wmata.com/StationPrediction.svc/json/GetPrediction/A10?api_key=02b1eb26253441d595d21f22bd9ede68'
+  var locationCode = $("#locationCode").html()
+  var url = 'http://api.wmata.com/StationPrediction.svc/json/GetPrediction/' + locationCode + '?api_key=02b1eb26253441d595d21f22bd9ede68'
 
   $.ajax({
     url: url,
     type: "get",
     dataType: "json"
-  }).done((response) => {
-    console.log("done")
-    train = trains.cars
-    $("div#train").text(train);
+  }).done(function(data) {
+    $('#train').html('')
+    var trains = data.Trains;
+    trains.forEach(train => {
+      for (prop in train) {
+        var header = prop;
+        if (['Line', 'DestinationName', 'Min', ].includes(prop)) {
+          var header = prop;
+          if (header == 'Min') header = 'Arriving in'
+          if (header == 'DestinationName') header = 'Detenation'
+          var div = $('<div/>').append('<span/>').addClass(prop + 'style').text(`${header} : ${train[prop]}`).append('<hr>');
+          if (train[prop] == 'OR') div.addClass('orange');
+          $('#train').append(div);
+          if (train[prop] == 'GR') div.addClass('green');
+          $('#train').append(div);
+          if (train[prop] == 'RD') div.addClass('red');
+          $('#train').append(div);
+          if (train[prop] == 'BL') div.addClass('blue');
+          $('#train').append(div);
+          if (train[prop] == 'YL') div.addClass('yellow');
+          $('#train').append(div);
+          if (train[prop] == 'SV') div.addClass('silver');
+          $('#train').append(div);
+        }
+
+      }
+
+    })
   }).fail(() => {
     console.log("Ajax request fails!")
   }).always(() => {
