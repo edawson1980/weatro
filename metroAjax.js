@@ -41,8 +41,3 @@ $("#showButton").on("click", () => {
     console.log("This always happens regardless of successful ajax request or not.")
   })
 })
-
-
-$(function() {
-    console.log( "ready!" );
-});
