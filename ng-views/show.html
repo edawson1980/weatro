@@ -1,24 +1,28 @@
 <script src="/weatherAjax.js"></script>
 <script src="/metroAjax.js"></script>
+<div class="show-wrapper">
+  <div class="station-info">
+    <h1>{{vm.station.name}}</h1>
+    <h3><span>{{vm.station.address}} </span><span class="address" id="city">{{vm.station.city}}, </span><span class="address"id="state">{{vm.station.state}}</span></h3>
+  <div class="station-img">
+    <img src= "{{vm.station.photo_url}}">
+  </div>
+    <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
+    <h3> Score: {{vm.station.vote}} </h3>
+  </div>
 
-<div class="station-info">
-  <h1>{{vm.station.name}}</h1>
-  <h3><span>{{vm.station.address}} </span><span class="address" id="city">{{vm.station.city}}, </span><span class="address"id="state">{{vm.station.state}}</span></h3>
-<div class="">
-  <img src= "{{vm.station.photo_url}}">
-</div>
-  <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
-  <h3> Score: {{vm.station.vote}} </h3>
-</div>
+  <button class="button" id="showButton" type="button" name="button">Train times</button>
 
-<button id="showButton" type="button" name="button">Train times</button>
 
-<div class="weather">
-  <div id="temp"></div>
-  <div id="pers"></div>
-  <div id="wind"></div>
-</div>
+  <div class="weather-train">
+    <div class="weather">
+      <div id="temp"></div>
+      <div id="pers"></div>
+      <div id="wind"></div>
+    </div>
 
-<div class="train">
-  <div id="train"></div>
+    <div class="train">
+      <div id="train"></div>
+    </div>
+  </div>
 </div>

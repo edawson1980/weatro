@@ -1,5 +1,9 @@
+<div class="index-container">
+  <input class= "searchBar" type="text" placeholder="Enter a station to get the WeaTro report" ng-model="search">
 
-<input type="text" ng-model="search">
-<div data-ng-repeat="station in vm.stations | filter :search | orderBy: 'name'">
-  <p><a data-ui-sref="stationShow({id: station.id})">{{station.name}}</a></p>
+  <div class="stations-wrapper">
+    <div class="index" data-ng-repeat="station in vm.stations | filter :search | orderBy: 'name'">
+      <p><a data-ui-sref="stationShow({id: station.id})">{{station.name}}</a></p>
+    </div>
+  </div>
 </div>
