@@ -299,7 +299,7 @@ Station.create(
   state: "DC",
   name: "Farragut North",
   address: "1001 Connecticut Avenue NW",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A03",
@@ -307,7 +307,7 @@ Station.create(
   state: "DC",
   name: "Dupont Circle",
   address: "1525 20th St. NW",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A04",
@@ -315,7 +315,7 @@ Station.create(
   state: "DC",
   name: "Woodley Park-Zoo/Adams Morgan",
   address: "2700 Connecticut Ave., NW",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A05",
@@ -323,7 +323,7 @@ Station.create(
   state: "DC",
   name: "Cleveland Park",
   address: "3599 Connecticut Avenue NW",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A06",
@@ -331,7 +331,7 @@ Station.create(
   state: "DC",
   name: "Van Ness-UDC",
   address: "4200 Connecticut Avenue NW",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A07",
@@ -339,7 +339,7 @@ Station.create(
   state: "DC",
   name: "Tenleytown-AU",
   address: "4501 Wisconsin Avenue NW",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A08",
@@ -347,7 +347,7 @@ Station.create(
   state: "DC",
   name: "Friendship Heights",
   address: "5337 Wisconsin Avenue NW",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A09",
@@ -355,7 +355,7 @@ Station.create(
   state: "MD",
   name: "Bethesda",
   address: "7450 Wisconsin Avenue",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A10",
@@ -363,7 +363,7 @@ Station.create(
   state: "MD",
   name: "Medical Center",
   address: "8810 Rockville Pike",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A11",
@@ -371,7 +371,7 @@ Station.create(
   state: "MD",
   name: "Grosvenor-Strathmore",
   address: "10300 Rockville Pike",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A12",
@@ -379,7 +379,7 @@ Station.create(
   state: "MD",
   name: "White Flint",
   address: "5500 Marinelli Road",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A13",
@@ -387,7 +387,7 @@ Station.create(
   state: "MD",
   name: "Twinbrook",
   address: "1600 Chapman Avenue",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "A14",
@@ -395,7 +395,7 @@ Station.create(
   state: "MD",
   name: "Rockville",
   address: "251 Hungerford Drive",
-  photo_url: "/http://i.imgur.com/zTd2t9W.jpg"
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 
 Station.create(
