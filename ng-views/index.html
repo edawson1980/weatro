@@ -1,4 +1,5 @@
 
-<div data-ng-repeat="station in vm.stations">
+<input type="text" ng-model="search">
+<div data-ng-repeat="station in vm.stations | filter :search | orderBy: 'name'">
   <p><a data-ui-sref="stationShow({id: station.id})">{{station.name}}</a></p>
 </div>
