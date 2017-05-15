@@ -11,7 +11,7 @@ $("#showButton").on("click", () => {
     let temp= response.current_observation.temp_f;
     let pers = response.current_observation.precip_1hr_in;
     let wind = response.current_observation.wind_mph;
-    $("div#temp").text(`Temputare: ${temp}°F`);
+    $("div#temp").text(`Temputare: ${temp} °F`);
     $("div#pers").text(`Preciption:  ${pers}%`);
     $("div#wind").text(`Wind: ${wind} mph`);
   }).fail(() => {
