@@ -16,7 +16,7 @@ $("#showButton").on("click", () => {
         if (['Line', 'DestinationName', 'Min', ].includes(prop)) {
           var header = prop;
           if (header == 'Min') header = 'Arriving in'
-          if (header == 'DestinationName') header = 'Detenation'
+          if (header == 'DestinationName') header = 'Destination'
           var div = $('<div/>').append('<span/>').addClass(prop + 'style').text(`${header} : ${train[prop]}`).append('<hr>');
           if (train[prop] == 'OR') div.addClass('orange');
           $('#train').append(div);
