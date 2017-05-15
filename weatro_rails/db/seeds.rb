@@ -19,7 +19,7 @@ state: "MD",
 city: "Rockville",
 name: "Shady Grove",
 address: "15903 Somerville Drive",
-photo_url: "http://i.imgur.com/JWFTT0N.jpg"
+photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "D05",
