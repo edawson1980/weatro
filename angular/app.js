@@ -26,7 +26,7 @@ angular
   function RouterFunction($stateProvider){
     $stateProvider
     .state("stationIndex", {
-      url: "/",
+      url: "/stations",
       templateUrl: "/ng-views/index.html",
       controller: "StationIndexController",
       controllerAs: "vm"

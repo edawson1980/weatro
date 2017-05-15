@@ -4,14 +4,14 @@
   <div class="station-info">
     <h1>{{vm.station.name}}</h1>
     <h3><span>{{vm.station.address}} </span><span class="address" id="city">{{vm.station.city}}, </span><span class="address"id="state">{{vm.station.state}}</span></h3>
-  <div class="station-img">
-    <img src= "{{vm.station.photo_url}}">
-  </div>
+    <div class="station-img">
+      <img src="{{vm.station.photo_url}}">
+    </div>
     <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
-    <h3> Score: {{vm.station.vote}} </h3>
+    <h3> Score: {{vm.station.votes[0].score}} </h3>
   </div>
 
-  <button class="button" id="showButton" type="button" name="button">Train times</button>
+<a href="#" id="showButton" class="button">WeaTro</a>
 
 
   <div class="weather-train">

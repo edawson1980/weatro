@@ -1,4 +1,4 @@
-body{
+body {
   font-family: 'Oswald', sans-serif;
 }
 
@@ -47,9 +47,115 @@ a {
 
 .searchBar {
   align-items: center;
-  width:50%;
+  width: 50%;
   padding: 10px;
 }
+
 .button {
-  text-align: center;
+  -moz-box-shadow: -8px 9px 43px -5px #276873;
+  -webkit-box-shadow: -8px 9px 43px -5px #276873;
+  box-shadow: -8px 9px 43px -5px #276873;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+  background: -moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background: -webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background: -o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background: -ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99', GradientType=0);
+  background-color: #599bb3;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Courier New;
+  font-size: 21px;
+  font-style: italic;
+  padding: 7px 76px;
+  text-decoration: none;
+  text-shadow: 50px 0px 32px #3d768a;
 }
+
+.button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+  background: -moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background: -webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background: -o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background: -ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3', GradientType=0);
+  background-color: #408c99;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
+
+.show-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-train {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.weather, .train {
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blue {
+  color: blue;
+  font-size: 28px;
+  background: rgb(14, 15, 15);
+}
+.red {
+  color: red
+  font-size: 28px;
+  background: rgb(14, 15, 15);
+}
+.yellow {
+  color: yellow;
+  font-size: 28px;
+  background: rgb(14, 15, 15);
+}
+.silver {
+  color: grey;
+  font-size: 28px;
+  background: rgb(14, 15, 15);
+}
+.green {
+  color: #2a9f06;
+  font-size: 28px;
+  background: rgb(14, 15, 15);
+}
+
+.orange {
+  color: orange;
+  font-size: 28px;
+  background: rgb(14, 15, 15);
+}
+
+.DestinationNamestyle {
+  background-color: #4f92a7;
+  width: 382px;
+  text-align: center;
+  color: black;
+  padding: 8px;
+  font-size: 26px;
+  }
+  .Minstyle {
+    background: black;
+    color: #9f0404;
+    font-size: x-large;
+  }
