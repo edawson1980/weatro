@@ -1,3 +1,7 @@
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
 .station-info {
   width: 100%;
   display: flex;
@@ -5,4 +9,47 @@
   align-items: center;
 }
 
-.locationCode{ visibility: hidden;}
+.locationCode {
+  visibility: hidden;
+}
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.stations-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.index {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  margin: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.searchBar {
+  align-items: center;
+  width:50%;
+  padding: 10px;
+}
+.button {
+  text-align: center;
+}

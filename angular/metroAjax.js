@@ -17,7 +17,7 @@ $("#showButton").on("click", () => {
           var header = prop;
           if (header == 'Min') header = 'Arriving in'
           if (header == 'DestinationName') header = 'Destination'
-          var div = $('<div/>').append('<span/>').addClass(prop + 'style').text(`${header} : ${train[prop]}`).append('<hr>');
+          var div = $('<div/>').append('<span/>').addClass(prop + 'style').text(`${header} : ${train[prop]}`).append('</br>');
           if (train[prop] == 'OR') div.addClass('orange');
           $('#train').append(div);
           if (train[prop] == 'GR') div.addClass('green');
@@ -41,3 +41,8 @@ $("#showButton").on("click", () => {
     console.log("This always happens regardless of successful ajax request or not.")
   })
 })
+
+
+$(function() {
+    console.log( "ready!" );
+});
