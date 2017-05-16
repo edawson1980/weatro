@@ -8,8 +8,17 @@
     <img src= "{{vm.station.photo_url}}">
   </div>
     <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
-    <h3> Score: {{vm.station.vote}} </h3>
+    <div ng-repeat="vote in vm.station.votes">
+    <h3> Score: {{vote.score}} </h3>
+    </div>
+
   </div>
+
+
+  <div class="index" data-ng-repeat="vote in vm.votes">
+    <p>{{vote.score}}</p>
+  </div>
+
 
   <button class="button" id="showButton" type="button" name="button">Train times</button>
 
