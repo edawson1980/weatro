@@ -82,6 +82,7 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
     vote.$save({station_id: $stateParams.id}).then(function (res) {
       console.log(res)
     })
+    location.reload();
   }
 }
 
