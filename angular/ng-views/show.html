@@ -10,7 +10,7 @@
     <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
     <div ng-repeat="vote in vm.station.votes">
     <h3> Score: {{vote.score}} </h3>
-     <p data-ui-sref="voteEdit({id: .vote.id})">edit this vote</p>
+     <a data-ui-sref="voteEdit({id: vote.id})">edit this vote</a>
     </div>
 </div>
 
