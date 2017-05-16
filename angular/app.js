@@ -20,6 +20,7 @@ angular
   .controller("VoteEditController", [
     "VoteFactory",
     "$stateParams",
+    "$state",
     VoteEditControllerFunction
   ])
   .controller("StationIndexController", [
@@ -87,12 +88,12 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
     vote.score = this.vote
     vote.$save({station_id: $stateParams.id}).then(function (res) {
       console.log(res)
-      
+
     })
   }
 }
 
-function VoteEditControllerFunction(VoteFactory, $stateParams) {
+function VoteEditControllerFunction(VoteFactory, $stateParams, $state) {
   this.vote = VoteFactory.get({
     id: $stateParams.id,
     station_id: $stateParams.station_id
@@ -100,7 +101,11 @@ function VoteEditControllerFunction(VoteFactory, $stateParams) {
   this.update = function() {
     this.vote.$update({
       id: $stateParams.id,
-      station_id: $stateParams.station_id
+      station_id: $stateParams.station_id,
+      function (data) {
+        let id = data.id
+        $state.go("stationShow", {id: id})
+      }
     })
   }
   this.destroy = function() {
