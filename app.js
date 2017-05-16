@@ -81,9 +81,8 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
     vote.score = this.vote
     vote.$save({station_id: $stateParams.station_id}).then(function (res) {
       console.log(res)
-
+      self.station.votes.push(res)
     })
-    location.reload();
   }
 }
 
@@ -102,6 +101,8 @@ function VoteEditControllerFunction(VoteFactory, $stateParams, $state) {
     this.vote.$delete({
       id: $stateParams.id,
       station_id: $stateParams.station_id
+    }, function () {
+      $state.go("stationShow", {id: $stateParams.station_id})
     })
   }
 }
