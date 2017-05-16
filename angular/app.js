@@ -83,6 +83,7 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
       console.log(res)
 
     })
+    location.reload();
   }
 }
 
