@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20170511191303) do
 
   create_table "votes", force: :cascade do |t|
     t.string   "score"
+    t.string   "name"
     t.integer  "station_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
