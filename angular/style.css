@@ -33,11 +33,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: red;
   margin: 20px;
   margin: 0 auto;
   margin-top: 20px;
-  border-radius: 100px;
+  border-radius: 70px;
+}
+
+.index a {
+  color: white;
 }
 
 a {
@@ -52,6 +56,7 @@ a {
   width: 50%;
   padding: 10px;
 }
+
 
 .button {
   -moz-box-shadow: -8px 9px 43px -5px #276873;
