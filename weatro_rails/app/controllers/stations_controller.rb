@@ -1,4 +1,7 @@
 class StationsController < ApplicationController
+
+  include ActiveModel::Serialization
+
   def index
     @stations = Station.all
     render json: @stations

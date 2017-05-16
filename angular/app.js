@@ -32,8 +32,6 @@ angular
     VoteEditControllerFunction
   ])
 
-
-
 function RouterFunction($stateProvider) {
   $stateProvider
     .state("stationIndex", {
@@ -54,7 +52,6 @@ function RouterFunction($stateProvider) {
       controller: "VoteEditController",
       controllerAs: "vm"
     })
-
 }
 
 
@@ -84,7 +81,6 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
     vote.score = this.vote
     vote.$save({station_id: $stateParams.id}).then(function (res) {
       console.log(res)
-
     })
   }
 }
