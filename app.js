@@ -1,52 +1,92 @@
 angular
-  .module("weatro", [
-    "ui.router",
-    "ngResource"
-  ])
-  .config([
-    "$stateProvider",
-    RouterFunction
-  ])
-  .factory("WeatroFactory", [
-    "$resource",
-    FactoryFunction
-  ])
+.module("weatro", [
+  "ui.router",
+  "ngResource"
+])
+.config([
+  "$stateProvider",
+  RouterFunction
+])
+.factory("WeatroFactory", [
+  "$resource",
+  WeatroFactoryFunction
+])
 
-  .controller("StationIndexController", [
-    "WeatroFactory",
-    StationIndexControllerFunction
-  ])
-  .controller("StationShowController", [
-    "WeatroFactory",
+.factory("VoteFactory", [
+  "$resource",
+  VoteFactoryFunction
+])
+
+  .controller("VoteEditController", [
+    "VoteFactory",
     "$stateParams",
-    StationShowControllerFunction
+    VoteEditControllerFunction
   ])
+.controller("StationIndexController", [
+  "WeatroFactory",
+  StationIndexControllerFunction
+])
+.controller("StationShowController", [
+  "WeatroFactory",
+  "VoteFactory",
+  "$stateParams",
+  StationShowControllerFunction
+])
 
 
-  function RouterFunction($stateProvider){
-    $stateProvider
-    .state("stationIndex", {
-      url: "/stations",
-      templateUrl: "/ng-views/index.html",
-      controller: "StationIndexController",
-      controllerAs: "vm"
-    })
-    .state("stationShow", {
-      url: "/stations/:id",
-      templateUrl: "/ng-views/show.html",
-      controller: "StationShowController",
-      controllerAs: "vm"
-    })
+
+function RouterFunction($stateProvider){
+  $stateProvider
+  .state("stationIndex", {
+    url: "/stations",
+    templateUrl: "/ng-views/index.html",
+    controller: "StationIndexController",
+    controllerAs: "vm"
+  })
+  .state("stationShow", {
+    url: "/stations/:id",
+    templateUrl: "/ng-views/show.html",
+    controller: "StationShowController",
+    controllerAs: "vm"
+  })
+
+
+  .state("voteEdit", {
+        url: "/stations/:station_id/votes/:id/edit",
+       templateUrl: "/ng-views/voteEdit.html",
+   controller: "VoteEditController",
+       controllerAs: "vm"
+   })
+
+}
+
+
+function WeatroFactoryFunction($resource) {
+  return $resource("http://localhost:3000/stations/:id")
+}
+
+function VoteFactoryFunction($resource) {
+  return $resource("http://localhost:3000/stations/:station_id/votes/:id", {}, {
+      update: { method: "PUT" }
+
+  })
+}
+
+function StationIndexControllerFunction(WeatroFactory){
+  this.stations = WeatroFactory.query();
+}
+
+function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams) {
+  this.station = WeatroFactory.get({id: $stateParams.id});
+
+}
+
+function VoteEditControllerFunction(VoteFactory, $stateParams) {
+  this.vote = VoteFactory.get({id: $stateParams.id, station_id:$stateParams.station_id })
+  this.update = function () {
+    this.vote.$update({id: $stateParams.id, station_id:$stateParams.station_id})
   }
-
-  function FactoryFunction($resource) {
-    return $resource("http://localhost:3000/stations/:id")
+  this.destroy = function () {
+    this.vote.$delete({id: $stateParams.id, station_id:$stateParams.station_id})
   }
-
-  function StationIndexControllerFunction(WeatroFactory){
-    this.stations = WeatroFactory.query();
-  }
-
-  function StationShowControllerFunction(WeatroFactory, $stateParams) {
-    this.station = WeatroFactory.get({id: $stateParams.id});
-  }
+}
