@@ -41,7 +41,6 @@ class VotesController < ApplicationController
     @station = Station.find(params[:station_id])
     @vote = Vote.find(params[:id])
     if @vote.update!(vote_params)
-      # redirect_to @vote, notice: "Score was successfully updated."
       render json: @vote
     else
       render json: @vote.errors, status: :unprocessable_entity
@@ -52,7 +51,6 @@ class VotesController < ApplicationController
     @station = Station.find(params[:station_id])
     @vote = @station.votes.find(params[:id])
     @vote.destroy
-    redirect_to station_path(@station)
   end
 
   private

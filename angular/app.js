@@ -84,7 +84,8 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
       self.station.votes.push(res)
 
     })
-    // location.reload();
+
+    })
   }
 }
 
@@ -103,6 +104,8 @@ function VoteEditControllerFunction(VoteFactory, $stateParams, $state) {
     this.vote.$delete({
       id: $stateParams.id,
       station_id: $stateParams.station_id
+    }, function () {
+      $state.go("stationShow", {id: $stateParams.station_id})
     })
   }
 }
