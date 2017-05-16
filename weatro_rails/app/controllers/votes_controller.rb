@@ -7,18 +7,13 @@ class VotesController < ApplicationController
     @votes = @station.votes.order(:created_at)
 
     render json: @votes
-
-
   end
-
 
   def show
     @station = Station.find(params[:station_id])
     @vote = Vote.find(params[:id])
 
     render json: @vote
-
-
   end
 
   def new
@@ -36,8 +31,6 @@ class VotesController < ApplicationController
       render json: @vote.errors, status: :unprocessable_entity
     end
   end
-
-
 
   def edit
     @station = Station.find(params[:station_id])
