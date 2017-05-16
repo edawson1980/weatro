@@ -1,20 +1,25 @@
 class VotesController < ApplicationController
 
+  include ActiveModel::Serialization
+
   def index
-     @votes = Vote.all
-     render json: @votes
-   end
+    @station = Station.find(params[:station_id])
+    @votes = @station.votes.order(:created_at)
+
+    render json: @votes
+
+
+  end
 
 
   def show
     @station = Station.find(params[:station_id])
     @vote = Vote.find(params[:id])
-    respond_to do |format|
-      format.html {render :show}
-      format.json {render json: @vote, include: :station}
-    end
-  end
 
+    render json: @vote
+
+
+  end
 
   def new
     @station = Station.find(params[:station_id])
@@ -22,18 +27,17 @@ class VotesController < ApplicationController
   end
 
   def create
-    @station = Station.find(params[station_id])
-    @vote = @station.votes.create!(vote_params) #here we could add .create!(vote_params.merge(user: current_user)) if we are going to use user auth. later
-    respond_to do |format|
-      if @vote.save!
-        format.html {redirect_to @station, notice: "Score view was successfully created."}
-        format.json {render json: @vote, status: :created}
-      else
-        format.html {render :new}
-        format.json {render json: @vote.errors, status: :unprocessable_entity}
-      end
+    @station = Station.find(params[:station_id])
+    @vote = @station.votes.create!(vote_params)
+
+    if @vote.save!
+      render json: @vote, notice: "Score view was successfully created.", status: :created
+    else
+      render json: @vote.errors, status: :unprocessable_entity
     end
   end
+
+
 
   def edit
     @station = Station.find(params[:station_id])
@@ -43,14 +47,12 @@ class VotesController < ApplicationController
   def update
     @station = Station.find(params[:station_id])
     @vote = Vote.find(params[:id])
-    respond_to do |format|
-      if @vote.update!(vote_params)
-        format.html {redirect_to @vote, notice: "Score was successfully updated."}
-        format.json {render json: @vote}
-      else
-        format.html {render :new}
-        format.json {render json: @vote.errors, status: :unprocessable_entity}
-      end
+puts "UPDATING NOW"
+    if @vote.update!(vote_params)
+      # redirect_to @vote, notice: "Score was successfully updated."
+      render json: @vote
+    else
+      render json: @vote.errors, status: :unprocessable_entity
     end
   end
 
