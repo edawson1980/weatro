@@ -15,6 +15,6 @@ class StationsController < ApplicationController
 
   def show
     @station = Station.find(params[:id])
-    render json: @station, include: :votes
+    render json: @station.votes
   end
 end
