@@ -11,17 +11,9 @@ angular
     "$resource",
     WeatroFactoryFunction
   ])
-
   .factory("VoteFactory", [
     "$resource",
     VoteFactoryFunction
-  ])
-
-  .controller("VoteEditController", [
-    "VoteFactory",
-    "$stateParams",
-    "$state",
-    VoteEditControllerFunction
   ])
   .controller("StationIndexController", [
     "WeatroFactory",
@@ -32,6 +24,12 @@ angular
     "VoteFactory",
     "$stateParams",
     StationShowControllerFunction
+  ])
+  .controller("VoteEditController", [
+    "VoteFactory",
+    "$stateParams",
+    "$state",
+    VoteEditControllerFunction
   ])
 
 
@@ -50,8 +48,6 @@ function RouterFunction($stateProvider) {
       controller: "StationShowController",
       controllerAs: "vm"
     })
-
-
     .state("voteEdit", {
       url: "/stations/:station_id/votes/:id/edit",
       templateUrl: "/ng-views/voteEdit.html",
@@ -98,14 +94,10 @@ function VoteEditControllerFunction(VoteFactory, $stateParams, $state) {
     id: $stateParams.id,
     station_id: $stateParams.station_id
   })
-  this.update = function() {
-    this.vote.$update({
-      id: $stateParams.id,
-      station_id: $stateParams.station_id,
-      function (data) {
-        let id = data.id
-        $state.go("stationShow", {id: id})
-      }
+  this.update = function () {
+    this.vote.$update({id: $stateParams.id, station_id: $stateParams.station_id}, function(data){
+      let id = data.id
+      $state.go("stationShow", {id: id})
     })
   }
   this.destroy = function() {
