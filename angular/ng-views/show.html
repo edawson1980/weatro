@@ -10,14 +10,15 @@
     <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
     <div ng-repeat="vote in vm.station.votes">
     <h3> Score: {{vote.score}} </h3>
+    <a data-ui-sref="voteEdit({id: votes.id})">(edit)</a>
     </div>
+</div>
 
-  </div>
 
-
-  <div class="index" data-ng-repeat="vote in vm.votes">
-    <p>{{vote.score}}</p>
-  </div>
+<form>
+  <textarea placeholder="Vote" data-ng-model="vm.vote"></textarea>
+  <button type="button" data-ng-click="vm.create()">Create</button>
+</form>
 
 
   <button class="button" id="showButton" type="button" name="button">Train times</button>

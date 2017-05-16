@@ -12,7 +12,9 @@ Vote.destroy_all
 Vote.create(
 score: "sucks", station_id: 1
 )
-
+Vote.create(
+score: "good", station_id: 2
+)
 Station.create(
 locationCode: "A15",
 state: "MD",
