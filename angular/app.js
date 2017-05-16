@@ -87,7 +87,7 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
     vote.score = this.vote
     vote.$save({station_id: $stateParams.id}).then(function (res) {
       console.log(res)
-      
+
     })
   }
 }
