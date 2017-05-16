@@ -10,13 +10,13 @@
     <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
     <div ng-repeat="vote in vm.station.votes">
     <h3> Score: {{vote.score}} </h3>
-    <a data-ui-sref="voteEdit({id: votes.id})">(edit)</a>
+    <a data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Score</a>
     </div>
 </div>
 
 
 <form>
-  <textarea placeholder="Vote" data-ng-model="vm.vote"></textarea>
+  <textarea placeholder="Score" data-ng-model="vm.vote"></textarea>
   <button type="button" data-ng-click="vm.create()">Create</button>
 </form>
 
