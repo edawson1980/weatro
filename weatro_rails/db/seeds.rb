@@ -13,7 +13,7 @@ Vote.create(
 score: "sucks", station_id: 1
 )
 Vote.create(
-score: "good", name: "Ammar" station_id: 2
+score: "good", name: "Ammar", station_id: 2
 )
 Station.create(
 locationCode: "A15",

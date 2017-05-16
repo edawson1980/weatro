@@ -85,9 +85,9 @@ function StationShowControllerFunction(WeatroFactory, VoteFactory, $stateParams)
 
     })
 
-    })
+    }
   }
-}
+
 
 function VoteEditControllerFunction(VoteFactory, $stateParams, $state) {
   this.vote = VoteFactory.get({
