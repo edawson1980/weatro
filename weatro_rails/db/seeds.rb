@@ -10,11 +10,377 @@ Station.destroy_all
 Vote.destroy_all
 
 Vote.create(
-  score: "sucks", station_id: 1
+  score: "I love it!", station_id: 1
 )
+
 Vote.create(
-  score: "good", name: "Ammar", station_id: 2
+  score: "Nice Place!", station_id: 2
 )
+
+Vote.create(
+  score: "Clean!", station_id: 3
+)
+
+Vote.create(
+  score: "Sucks", station_id: 4
+)
+
+Vote.create(
+  score: "Good!", station_id: 5
+)
+
+Vote.create(
+  score: "Please Don't Visit!", station_id: 6
+)
+
+Vote.create(
+  score: "Nice!", station_id: 7
+)
+
+Vote.create(
+  score: "Ewwwwwwww", station_id: 8
+)
+
+Vote.create(
+  score: "I love it!", station_id: 9
+)
+
+Vote.create(
+  score: "Good!", station_id: 10
+)
+
+Vote.create(
+  score: "I love it!", station_id: 11
+)
+
+Vote.create(
+  score: "Geeeez", station_id: 12
+)
+
+Vote.create(
+  score: "God Help us", station_id: 13
+)
+
+Vote.create(
+  score: "Bravo", station_id: 14
+)
+
+Vote.create(
+  score: "Sucks", station_id: 15
+)
+
+Vote.create(
+  score: "Please....", station_id: 16
+)
+
+Vote.create(
+  score: "Need to clean up", station_id: 17
+)
+
+Vote.create(
+  score: "Very Clean", station_id: 18
+)
+
+Vote.create(
+  score: "I love it!", station_id: 19
+)
+
+Vote.create(
+  score: "Gosh...Clean up please", station_id: 20
+)
+
+Vote.create(
+  score: "Too many people", station_id: 21
+)
+
+Vote.create(
+  score: "Nice Place!", station_id: 22
+)
+
+Vote.create(
+  score: "My home metro station", station_id: 23
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 24
+)
+
+Vote.create(
+  score: "Long waiting line", station_id: 25
+)
+
+Vote.create(
+  score: "I love it!", station_id: 26
+)
+
+Vote.create(
+  score: "God please...", station_id: 27
+)
+
+Vote.create(
+  score: "I love it!", station_id: 28
+)
+
+Vote.create(
+  score: "Clean!", station_id: 29
+)
+
+Vote.create(
+  score: "Sucks", station_id: 30
+)
+
+Vote.create(
+  score: "I love it!", station_id: 31
+)
+
+Vote.create(
+  score: "Long waiting Line", station_id: 32
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 33
+)
+
+Vote.create(
+  score: "I love it!", station_id: 34
+)
+
+Vote.create(
+  score: "Everythig is fine", station_id: 35
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 36
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 37
+)
+
+Vote.create(
+  score: "Please....", station_id: 38
+)
+
+Vote.create(
+  score: "FML", station_id: 39
+)
+
+Vote.create(
+  score: "Nice!", station_id: 40
+)
+
+Vote.create(
+  score: "Sucks", station_id: 41
+)
+
+Vote.create(
+  score: "Love it!", station_id: 42
+)
+
+Vote.create(
+  score: "Hate this place!", station_id: 43
+)
+
+Vote.create(
+  score: "I love it!", station_id: 44
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 45
+)
+
+Vote.create(
+  score: "I love it!", station_id: 46
+)
+
+Vote.create(
+  score: "Nice Place!", station_id: 47
+)
+
+Vote.create(
+  score: "Clean!", station_id: 48
+)
+
+Vote.create(
+  score: "Sucks", station_id: 49
+)
+
+Vote.create(
+  score: "Good!", station_id: 50
+)
+
+Vote.create(
+  score: "Please Don't Visit!", station_id: 51
+)
+
+Vote.create(
+  score: "Nice!", station_id: 52
+)
+
+Vote.create(
+  score: "Ewwwwwwww", station_id: 53
+)
+
+Vote.create(
+  score: "I love it!", station_id: 54
+)
+
+Vote.create(
+  score: "Good!", station_id: 55
+)
+
+Vote.create(
+  score: "I love it!", station_id: 56
+)
+
+Vote.create(
+  score: "Geeeez", station_id: 57
+)
+
+Vote.create(
+  score: "God Help us", station_id: 58
+)
+
+Vote.create(
+  score: "Bravo", station_id: 59
+)
+
+Vote.create(
+  score: "Sucks", station_id: 60
+)
+
+Vote.create(
+  score: "Please....", station_id: 61
+)
+
+Vote.create(
+  score: "Need to clean up", station_id: 62
+)
+
+Vote.create(
+  score: "Very Clean", station_id: 63
+)
+
+Vote.create(
+  score: "I love it!", station_id: 64
+)
+
+Vote.create(
+  score: "Gosh...Clean up please", station_id: 65
+)
+
+Vote.create(
+  score: "Too many people", station_id: 66
+)
+
+Vote.create(
+  score: "Nice Place!", station_id: 67
+)
+
+Vote.create(
+  score: "My home metro station", station_id: 68
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 69
+)
+
+Vote.create(
+  score: "Long waiting line", station_id: 70
+)
+
+Vote.create(
+  score: "I love it!", station_id: 71
+)
+
+Vote.create(
+  score: "God please...", station_id: 72
+)
+
+Vote.create(
+  score: "I love it!", station_id: 73
+)
+
+Vote.create(
+  score: "Clean!", station_id: 74
+)
+
+Vote.create(
+  score: "Sucks", station_id: 75
+)
+
+Vote.create(
+  score: "I love it!", station_id: 76
+)
+
+Vote.create(
+  score: "Long waiting Line", station_id: 77
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 78
+)
+
+Vote.create(
+  score: "I love it!", station_id: 79
+)
+
+Vote.create(
+  score: "Everythig is fine", station_id: 80
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 81
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 82
+)
+
+Vote.create(
+  score: "Please....", station_id: 83
+)
+
+Vote.create(
+  score: "FML", station_id: 84
+)
+
+Vote.create(
+  score: "Nice!", station_id: 85
+)
+
+Vote.create(
+  score: "Sucks", station_id: 86
+)
+
+Vote.create(
+  score: "Love it!", station_id: 87
+)
+
+Vote.create(
+  score: "Hate this place!", station_id: 88
+)
+
+Vote.create(
+  score: "I love it!", station_id: 89
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 90
+)
+
+Vote.create(
+  score: "I love it!", station_id: 91
+)
+
+Vote.create(
+  score: "Gosh...Clean up please", station_id: 92
+)
+
+Vote.create(
+  score: "Too many people", station_id: 93
+)
+
 Station.create(
   locationCode: "A15",
   state: "MD",
