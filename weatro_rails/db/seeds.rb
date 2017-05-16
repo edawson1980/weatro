@@ -10,18 +10,18 @@ Station.destroy_all
 Vote.destroy_all
 
 Vote.create(
-score: "sucks", station_id: 1
+  score: "sucks", station_id: 1
 )
 Vote.create(
-score: "good", name: "Ammar", station_id: 2
+  score: "good", name: "Ammar", station_id: 2
 )
 Station.create(
-locationCode: "A15",
-state: "MD",
-city: "Rockville",
-name: "Shady Grove",
-address: "15903 Somerville Drive",
-photo_url: "http://i.imgur.com/zTd2t9W.jpg"
+  locationCode: "A15",
+  state: "MD",
+  city: "Rockville",
+  name: "Shady Grove",
+  address: "15903 Somerville Drive",
+  photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
 Station.create(
   locationCode: "D05",
