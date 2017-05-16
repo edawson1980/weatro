@@ -47,7 +47,6 @@ class VotesController < ApplicationController
   def update
     @station = Station.find(params[:station_id])
     @vote = Vote.find(params[:id])
-puts "UPDATING NOW"
     if @vote.update!(vote_params)
       # redirect_to @vote, notice: "Score was successfully updated."
       render json: @vote
