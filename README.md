@@ -8,9 +8,9 @@ Ammar Alasadi :  Models(R), Controllers(R), CRUD (A) Migrations(R), APIs, CSS, C
 
 Erin Dawson :  Image files, seed data, README file, internet research, general support, team planning.
 
-Ick Kwon : Angular(app.js and index.html), Controllers(A), seed data (stations and votes), general support, team planning.
+Ick Hyun Kwon : Angular(app.js and index.html), Controllers(A), seed data (stations and votes), general support, team planning.
 
-All three team members had an equal role in planning, troubleshooting and problem-solving.
+All three team members had an equal role in planning, troubleshooting, problem-solving and deploying on Heroku.
 
 WEATRO User Stories:
 
@@ -19,7 +19,7 @@ WEATRO User Stories:
 3) The user is able to view Transit and Weather information on demand.
 4) The user can search stations by name, line, and destinations.
 4) The user is able to rate the station by writing a review.
-5)The user is able to delete the comment.
+5) The user is able to delete the comment.
 
 
 
@@ -41,3 +41,5 @@ A personal list of favorite stations for easy access (Not achieved)
 Technologies Used:
 
 Rails 5, AngularJs, jQuery, Ajax, Json, Ajax, HTML5, CSS3, javaScript.
+
+ERD Links:  https://www.lucidchart.com/publicSegments/view/2f886e69-bac7-4a6c-afd9-dd3d0f843095/image.jpeg
