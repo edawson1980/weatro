@@ -56,7 +56,7 @@ function RouterFunction($stateProvider) {
 
 
 function WeatroFactoryFunction($resource) {
-  return $resource("http://localhost:3000/stations/:id")
+  return $resource("https://weatro-rails.herokuapp.com/stations/:id")
 }
 
 function VoteFactoryFunction($resource) {
