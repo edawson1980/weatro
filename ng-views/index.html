@@ -2,7 +2,7 @@
 <script src="/metroAjax.js"></script>
 
 <header>
-  <p class="title"><span class="redt">W</span><span class="yellowt">e</span><span class="bluet">a</span><span class="greent">T</span>r<span class="silvert"></span><span class="redt">o</span></p>
+  <p class="title"><span class="redWeatro">W</span><span class="yellowWeatro">e</span><span class="blueWeatro">a</span><span class="greenWeatro">T</span>r<span class="silverWeatro"></span><span class="redWeatro">o</span></p>
 
   <p class="subtitle">Your one Stop Weather and Metro</p>
 </header>
@@ -11,7 +11,7 @@
 <div class="index-container">
   <input class= "searchBar" type="text" placeholder="Enter a station to get the WeaTro report" ng-model="search">
   <div class="stations-wrapper">
-    <div class="index" data-ng-repeat="station in vm.stations | filter :search | orderBy: 'name'">
+    <div  background-image="Logomakr_3xdx0L.png" class="index" data-ng-repeat="station in vm.stations | filter :search | orderBy: 'name'">
       <a class="sation-index-tilte" data-ui-sref="stationShow({id: station.id})">{{station.name}}</a>
     </div>
   </div>
