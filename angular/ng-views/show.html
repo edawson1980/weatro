@@ -2,29 +2,20 @@
 <script src="/metroAjax.js"></script>
 <div class="show-wrapper">
   <div class="station-info">
-    <h1>{{vm.station.name}}</h1>
-    <h3><span>{{vm.station.address}} </span><span class="address" id="city">{{vm.station.city}}, </span><span class="address"id="state">{{vm.station.state}}</span></h3>
+    <div class="name-address">
+      <h1>{{vm.station.name}}</h1>
+      <h3 class="subtitle"><span>{{vm.station.address}} </span><span class="address" id="city">{{vm.station.city}}, </span><span class="address"id="state">{{vm.station.state}}</span></h3>
+    </div>
     <div class="station-img">
       <img src="{{vm.station.photo_url}}">
     </div>
-    <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
-    <div ng-repeat="vote in vm.station.votes">
-    <h3> Score: {{vote.score}} </h3>
 
-    <a data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Score</a>
-
-    </div>
-</div>
+  </div>
 
 
-<form>
-  <textarea placeholder="Score" data-ng-model="vm.vote"></textarea>
-  <button type="button" data-ng-click="vm.create()">Create</button>
-</form>
 
 
   <button class="button" id="showButton" type="button" name="button">Train times</button>
-
 
   <div class="weather-train">
     <div class="weather">
@@ -33,8 +24,24 @@
       <div id="wind"></div>
     </div>
 
-    <div class="train">
-      <div id="train"></div>
-    </div>
+      <div class="trainInfo" id="train"></div>
+
+  </div>
+  <div ng-repeat="vote in vm.station.votes">
+    <p class="rate">{{vote.score}} </p>
+    <button class="button"data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Vote</button>
   </div>
 </div>
+
+
+
+
+<p class="subtitle">Rate this Station</p>
+
+<form class="form">
+  <textarea class="searchBar show" placeholder="Rate this Station" data-ng-model="vm.vote"></textarea>
+  <button class="button" type="button" data-ng-click="vm.create()">Create</button>
+</form>
+
+
+<span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
