@@ -2,6 +2,22 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.redt{color:red;} .greent{color: green;} .yellowt{color: gold;} .bluet{color: blue;}
+
+.title {
+  text-align: center;
+    font-size: 56px;
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 27px;
+  margin-top: 0px;
+
+}
+
 .station-info {
   width: 100%;
   display: flex;
@@ -16,9 +32,11 @@ body {
 .index-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 94%;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  margin: auto;
 }
 
 .stations-wrapper {
@@ -34,20 +52,21 @@ body {
   align-items: center;
   justify-content: center;
   background-color: red;
-  margin: 20px;
-  margin: 0 auto;
-  margin-top: 20px;
-  border-radius: 70px;
+  border-radius: 10px;
+  margin: 10px;
+  -webkit-box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
+  -moz-box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
+  box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
 }
 
-.index a {
-  color: white;
+.index:hover{
+  width: 200.5px;
+  height: 200.5px;
 }
+
 
 a {
   text-decoration: none;
-  color: blue;
-
 }
 
 .searchBar {
@@ -55,7 +74,6 @@ a {
   width: 50%;
   padding: 10px;
 }
-
 
 .button {
   -moz-box-shadow: -8px 9px 43px -5px #276873;
@@ -120,26 +138,30 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 .blue {
   color: blue;
   font-size: 28px;
   background: rgb(14, 15, 15);
 }
+
 .red {
-  color: red
-  font-size: 28px;
+  color: red font-size: 28px;
   background: rgb(14, 15, 15);
 }
+
 .yellow {
   color: yellow;
   font-size: 28px;
   background: rgb(14, 15, 15);
 }
+
 .silver {
   color: grey;
   font-size: 28px;
   background: rgb(14, 15, 15);
 }
+
 .green {
   color: #2a9f06;
   font-size: 28px;
@@ -159,9 +181,41 @@ a {
   color: black;
   padding: 8px;
   font-size: 26px;
-  }
-  .Minstyle {
-    background: black;
-    color: #9f0404;
-    font-size: x-large;
-  }
+}
+
+.Minstyle {
+  background: black;
+  color: #9f0404;
+  font-size: x-large;
+}
+
+.searchBar[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.searchBar[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.sation-index-tilte {
+  color: #000000;
+  color: #000000;
+  font-size: x-large;
+}
+
+.sation-index-tilte:hover {
+  color: white;
+}
+
+.info-weather {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
