@@ -9,12 +9,6 @@
 Station.destroy_all
 Vote.destroy_all
 
-Vote.create(
-  score: "sucks", station_id: 1
-)
-Vote.create(
-score: "good", name: "Ammar", station_id: 2
-)
 Station.create(
   locationCode: "A15",
   state: "MD",
@@ -111,7 +105,7 @@ Station.create(
   locationCode: "E03",
   city: "Washington",
   state: "DC",
-  name: "U Street/African-Amer Civil War Memorial/Cardozo",
+  name: "African-Amer Civil War Memorial",
   address: "1240 U Street NW",
   photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
@@ -165,7 +159,7 @@ Station.create(
   locationCode: "E09",
   city: "College Park",
   state: "MD",
-  name: "College Park-U of Md",
+  name: "College Park",
   address: "4931 Calvert Road",
   photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
@@ -192,7 +186,7 @@ Station.create(
   locationCode: "F02",
   city: "Washington",
   state: "DC",
-  name: "Archives-Navy Memorial-Penn Quarter",
+  name: "Navy Memorial",
   address: "701 Pennsylvania Avenue NW",
   photo_url: "http://i.imgur.com/qFaTB53.jpg"
 )
@@ -315,7 +309,7 @@ Station.create(
   locationCode: "A04",
   city: "Washington",
   state: "DC",
-  name: "Woodley Park-Zoo/Adams Morgan",
+  name: "Woodley Park-Zoo",
   address: "2700 Connecticut Ave., NW",
   photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
@@ -412,7 +406,7 @@ Station.create(
   locationCode: "G03",
   city: "Capitol Heights",
   state: "MD",
-  name: "Addison Road-Seat Pleasant",
+  name: "Seat Pleasant",
   address: "100 Addison Road S.",
   photo_url: "http://i.imgur.com/G8ks7Cp.jpg"
 )
@@ -493,7 +487,7 @@ Station.create(
   locationCode: "K06",
   city: "Falls Church",
   state: "VA",
-  name: "West Falls Church-VT/UVA",
+  name: "West Falls Church",
   address: "7040 Haycock Road",
   photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
@@ -502,7 +496,7 @@ Station.create(
   locationCode: "K07",
   city: "Vienna",
   state: "VA",
-  name: "Dunn Loring-Merrifield",
+  name: "Dunn Loring",
   address: "2700 Gallows Road",
   photo_url: "http://i.imgur.com/aJSiYC2.jpg"
 )
@@ -590,7 +584,7 @@ Station.create(
   locationCode: "B04",
   city: "Washington",
   state: "DC",
-  name: "Rhode Island Ave-Brentwood",
+  name: "Rhode Island Ave",
   address: "919 Rhode Island Avenue NE",
   photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
@@ -734,7 +728,7 @@ Station.create(
   locationCode: "C10",
   city: "Arlington",
   state: "VA",
-  name: "Ronald Reagan Washington National Airport",
+  name: "Ronald Reagan Airport",
   address: "2400 S. Smith Blvd.",
   photo_url: "http://i.imgur.com/TDWpbhb.jpg"
 )
@@ -801,4 +795,377 @@ Station.create(
   name: "Federal Center SW",
   address: "401 3rd Street SW",
   photo_url: "http://i.imgur.com/N6XZoUh.jpg"
+)
+
+
+Vote.create(
+  score: "I love it!", station_id: 1
+)
+
+Vote.create(
+  score: "Nice Place!", station_id: 2
+)
+
+Vote.create(
+  score: "Clean!", station_id: 3
+)
+
+Vote.create(
+  score: "Sucks", station_id: 4
+)
+
+Vote.create(
+  score: "Good!", station_id: 5
+)
+
+Vote.create(
+  score: "Please Don't Visit!", station_id: 6
+)
+
+Vote.create(
+  score: "Nice!", station_id: 7
+)
+
+Vote.create(
+  score: "Ewwwwwwww", station_id: 8
+)
+
+Vote.create(
+  score: "I love it!", station_id: 9
+)
+
+Vote.create(
+  score: "Good!", station_id: 10
+)
+
+Vote.create(
+  score: "I love it!", station_id: 11
+)
+
+Vote.create(
+  score: "Geeeez", station_id: 12
+)
+
+Vote.create(
+  score: "God Help us", station_id: 13
+)
+
+Vote.create(
+  score: "Bravo", station_id: 14
+)
+
+Vote.create(
+  score: "Sucks", station_id: 15
+)
+
+Vote.create(
+  score: "Please....", station_id: 16
+)
+
+Vote.create(
+  score: "Need to clean up", station_id: 17
+)
+
+Vote.create(
+  score: "Very Clean", station_id: 18
+)
+
+Vote.create(
+  score: "I love it!", station_id: 19
+)
+
+Vote.create(
+  score: "Gosh...Clean up please", station_id: 20
+)
+
+Vote.create(
+  score: "Too many people", station_id: 21
+)
+
+Vote.create(
+  score: "Nice Place!", station_id: 22
+)
+
+Vote.create(
+  score: "My home metro station", station_id: 23
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 24
+)
+
+Vote.create(
+  score: "Long waiting line", station_id: 25
+)
+
+Vote.create(
+  score: "I love it!", station_id: 26
+)
+
+Vote.create(
+  score: "God please...", station_id: 27
+)
+
+Vote.create(
+  score: "I love it!", station_id: 28
+)
+
+Vote.create(
+  score: "Clean!", station_id: 29
+)
+
+Vote.create(
+  score: "Sucks", station_id: 30
+)
+
+Vote.create(
+  score: "I love it!", station_id: 31
+)
+
+Vote.create(
+  score: "Long waiting Line", station_id: 32
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 33
+)
+
+Vote.create(
+  score: "I love it!", station_id: 34
+)
+
+Vote.create(
+  score: "Everythig is fine", station_id: 35
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 36
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 37
+)
+
+Vote.create(
+  score: "Please....", station_id: 38
+)
+
+Vote.create(
+  score: "FML", station_id: 39
+)
+
+Vote.create(
+  score: "Nice!", station_id: 40
+)
+
+Vote.create(
+  score: "Sucks", station_id: 41
+)
+
+Vote.create(
+  score: "Love it!", station_id: 42
+)
+
+Vote.create(
+  score: "Hate this place!", station_id: 43
+)
+
+Vote.create(
+  score: "I love it!", station_id: 44
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 45
+)
+
+Vote.create(
+  score: "I love it!", station_id: 46
+)
+
+Vote.create(
+  score: "Nice Place!", station_id: 47
+)
+
+Vote.create(
+  score: "Clean!", station_id: 48
+)
+
+Vote.create(
+  score: "Sucks", station_id: 49
+)
+
+Vote.create(
+  score: "Good!", station_id: 50
+)
+
+Vote.create(
+  score: "Please Don't Visit!", station_id: 51
+)
+
+Vote.create(
+  score: "Nice!", station_id: 52
+)
+
+Vote.create(
+  score: "Ewwwwwwww", station_id: 53
+)
+
+Vote.create(
+  score: "I love it!", station_id: 54
+)
+
+Vote.create(
+  score: "Good!", station_id: 55
+)
+
+Vote.create(
+  score: "I love it!", station_id: 56
+)
+
+Vote.create(
+  score: "Geeeez", station_id: 57
+)
+
+Vote.create(
+  score: "God Help us", station_id: 58
+)
+
+Vote.create(
+  score: "Bravo", station_id: 59
+)
+
+Vote.create(
+  score: "Sucks", station_id: 60
+)
+
+Vote.create(
+  score: "Please....", station_id: 61
+)
+
+Vote.create(
+  score: "Need to clean up", station_id: 62
+)
+
+Vote.create(
+  score: "Very Clean", station_id: 63
+)
+
+Vote.create(
+  score: "I love it!", station_id: 64
+)
+
+Vote.create(
+  score: "Gosh...Clean up please", station_id: 65
+)
+
+Vote.create(
+  score: "Too many people", station_id: 66
+)
+
+Vote.create(
+  score: "Nice Place!", station_id: 67
+)
+
+Vote.create(
+  score: "My home metro station", station_id: 68
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 69
+)
+
+Vote.create(
+  score: "Long waiting line", station_id: 70
+)
+
+Vote.create(
+  score: "I love it!", station_id: 71
+)
+
+Vote.create(
+  score: "God please...", station_id: 72
+)
+
+Vote.create(
+  score: "I love it!", station_id: 73
+)
+
+Vote.create(
+  score: "Clean!", station_id: 74
+)
+
+Vote.create(
+  score: "Sucks", station_id: 75
+)
+
+Vote.create(
+  score: "I love it!", station_id: 76
+)
+
+Vote.create(
+  score: "Long waiting Line", station_id: 77
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 78
+)
+
+Vote.create(
+  score: "I love it!", station_id: 79
+)
+
+Vote.create(
+  score: "Everythig is fine", station_id: 80
+)
+
+Vote.create(
+  score: "Addval machine is not working", station_id: 81
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 82
+)
+
+Vote.create(
+  score: "Please....", station_id: 83
+)
+
+Vote.create(
+  score: "FML", station_id: 84
+)
+
+Vote.create(
+  score: "Nice!", station_id: 85
+)
+
+Vote.create(
+  score: "Sucks", station_id: 86
+)
+
+Vote.create(
+  score: "Love it!", station_id: 87
+)
+
+Vote.create(
+  score: "Hate this place!", station_id: 88
+)
+
+Vote.create(
+  score: "I love it!", station_id: 89
+)
+
+Vote.create(
+  score: "Long ecalator", station_id: 90
+)
+
+Vote.create(
+  score: "I love it!", station_id: 91
+)
+
+Vote.create(
+  score: "Gosh...Clean up please", station_id: 92
+)
+
+Vote.create(
+  score: "Too many people", station_id: 93
 )
