@@ -70,7 +70,7 @@ body {
   -moz-box-shadow: 1px -4px 35px 1px rgba(131, 161, 150, 1);
   box-shadow: 1px -4px 35px 1px rgba(131, 161, 150, 1);
   background-size: 200px 200px;
-  background-color: white;
+  background-color: crimson;
 }
 
 .index:hover {
@@ -319,4 +319,31 @@ body {
   color: red;
   text-align: center;
   font-size: 50px;
+}
+.index a {
+  color: black;
+}
+.index a:hover {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+  background: black;
+  color: white;
+  height: 28px;
+  width: 80%;
+}
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: red;
+}
+footer a:hover {
+  font-size: 30px;
 }
