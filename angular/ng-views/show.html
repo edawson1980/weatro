@@ -15,7 +15,7 @@
 
 
 
-  <button class="button" id="showButton" type="button" name="button">Train times</button>
+  <button class="button" id="showButton" type="button" name="button">WeaTro</button>
 
   <div class="weather-train">
     <div class="weather">
@@ -26,17 +26,21 @@
 
       <div class="trainInfo" id="train"></div>
 
+  </div >
+
+  <div class="edit-wrapper">
+    <div class="comment-edit" ng-repeat="vote in vm.station.votes">
+      <p class="comment">{{vote.score}} </p>
+      <button class="editButton"data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit</button>
+    </div>
   </div>
-  <div ng-repeat="vote in vm.station.votes">
-    <p class="rate">{{vote.score}} </p>
-    <button class="button"data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Vote</button>
   </div>
-</div>
 
 
 
 
-<p class="subtitle">Rate this Station</p>
+
+<p class="create">Rate this Station</p>
 
 <form class="form">
   <textarea class="searchBar show" placeholder="Rate this Station" data-ng-model="vm.vote"></textarea>
