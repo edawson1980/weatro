@@ -24,17 +24,17 @@
       <div id="wind"></div>
     </div>
 
-
       <div class="trainInfo" id="train"></div>
 
   </div>
+  <div ng-repeat="vote in vm.station.votes">
+    <p class="rate">{{vote.score}} </p>
+    <button class="button"data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Vote</button>
+  </div>
 </div>
-hrbutton
 
-<div ng-repeat="vote in vm.station.votes">
-  <h3 class="comment">{{vote.score}} </h3>
-  <button class="button"data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Vote</button>
-</div>
+
+
 
 <p class="subtitle">Rate this Station</p>
 
