@@ -8,23 +8,8 @@
       <img src="{{vm.station.photo_url}}">
     </div>
     <span id="locationCode" class="locationCode">{{vm.station.locationCode}}</span>
-    <div ng-repeat="vote in vm.station.votes">
-    <h3> Score: {{vote.score}} </h3>
-
-    <a data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Score</a>
-
-    </div>
-</div>
-
-
-<form>
-  <textarea placeholder="Score" data-ng-model="vm.vote"></textarea>
-  <button type="button" data-ng-click="vm.create()">Create</button>
-</form>
-
-
+  </div>
   <button class="button" id="showButton" type="button" name="button">Train times</button>
-
 
   <div class="weather-train">
     <div class="weather">
@@ -38,3 +23,13 @@
     </div>
   </div>
 </div>
+
+<div ng-repeat="vote in vm.station.votes">
+  <h3>{{vote.score}} </h3>
+  <a data-ui-sref="voteEdit({station_id: vm.station.id, id: vote.id})">Edit this Score</a>
+</div>
+
+<form class="form">
+  <input class="searchBar show" placeholder="Rate this Station" data-ng-model="vm.vote"></input>
+  <button type="button" data-ng-click="vm.create()">Create</button>
+</form>
