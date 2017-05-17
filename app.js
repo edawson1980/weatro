@@ -36,19 +36,19 @@ function RouterFunction($stateProvider) {
   $stateProvider
     .state("stationIndex", {
       url: "/stations",
-      templateUrl: "/ng-views/index.html",
+      templateUrl: "ng-views/index.html",
       controller: "StationIndexController",
       controllerAs: "vm"
     })
     .state("stationShow", {
       url: "/stations/:id",
-      templateUrl: "/ng-views/show.html",
+      templateUrl: "ng-views/show.html",
       controller: "StationShowController",
       controllerAs: "vm"
     })
     .state("voteEdit", {
       url: "/stations/:station_id/votes/:id/edit",
-      templateUrl: "/ng-views/voteEdit.html",
+      templateUrl: "ng-views/voteEdit.html",
       controller: "VoteEditController",
       controllerAs: "vm"
     })
