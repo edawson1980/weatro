@@ -42,6 +42,7 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .index {
@@ -55,9 +56,10 @@ body {
   -webkit-box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
   -moz-box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
   box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
-  background-image: url("Logomakr_3xdx0L.png");
+  /*background-image: url("Logomakr_3xdx0L.png");*/
   background-size: 200px 200px;
-  color: red;
+  color: black;background-color: azure;
+
 
 }
 
@@ -66,9 +68,9 @@ body {
   height: 202px;
 }
 
-.index a {
+/*.index a {
   color: red;
-}
+}*/
 
 
 a {
@@ -146,9 +148,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
-  box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);*/
   margin: 20px;
 }
 
@@ -159,9 +161,9 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  -webkit-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  /*-webkit-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);*/
 }
 
 .blue {
@@ -206,7 +208,7 @@ box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
 }
 
 .DestinationNamestyle {
-  background-color: #4f92a7;
+  background-color: #205a6f;
   text-align: center;
   color: black;
   font-size: 26px;
