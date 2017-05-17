@@ -17,7 +17,7 @@ $("#showButton").on("click", () => {
           var header = prop;
           if (header == 'Min') header = 'Arriving in'
           if (header == 'DestinationName') header = 'Destination'
-          var div = $('<div/>').append('<span/>').addClass(prop + 'style').text(`${header} : ${train[prop]}`).append('</br>');
+          var div = $('<div/>').append('<h4/>').addClass(prop + 'style').text(`${header} : ${train[prop]}`);
           if (train[prop] == 'OR') div.addClass('orange');
           $('#train').append(div);
           if (train[prop] == 'GR') div.addClass('green');

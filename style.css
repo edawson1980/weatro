@@ -1,7 +1,7 @@
 body {
   font-family: 'Oswald', sans-serif;
 }
-.redt{color:red;} .greent{color: green;} .yellowt{color: gold;} .bluet{color: blue;}
+.redWeatro{color:red;} .greenWeatro{color: green;} .yellowWeatro{color: gold;} .blueWeatro{color: blue;}
 
 .title {
   text-align: center;
@@ -20,8 +20,7 @@ body {
 .station-info {
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .locationCode {
@@ -52,15 +51,15 @@ body {
   justify-content: center;
   background-color: red;
   border-radius: 10px;
-  margin: 10px;
+  margin: 5px;
   -webkit-box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
   -moz-box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
   box-shadow: 1px -4px 35px 1px rgba(131,161,150,1);
 }
 
 .index:hover{
-  width: 200.5px;
-  height: 200.5px;
+  width: 202px;
+  height: 202px;
 }
 
 
@@ -127,76 +126,105 @@ a {
 .weather-train {
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.weather, .train {
+.weather{
   padding: 20px;
-  width: 30%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  margin: 20px;
+}
+
+#train{
+  padding: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
 }
 
 .blue {
   color: blue;
   font-size: 28px;
   background: rgb(14, 15, 15);
+  width: 100%;
 }
 
 .red {
   color: red font-size: 28px;
   background: rgb(14, 15, 15);
+  width: 100%;
 }
 
 .yellow {
   color: yellow;
   font-size: 28px;
   background: rgb(14, 15, 15);
+  width: 100%;
 }
 
 .silver {
   color: grey;
   font-size: 28px;
   background: rgb(14, 15, 15);
+  width: 100%;
 }
 
 .green {
   color: #2a9f06;
   font-size: 28px;
   background: rgb(14, 15, 15);
+  width: 100%;
 }
 
 .orange {
   color: orange;
   font-size: 28px;
   background: rgb(14, 15, 15);
+  width: 100%;
 }
 
 .DestinationNamestyle {
   background-color: #4f92a7;
-  width: 382px;
   text-align: center;
   color: black;
-  padding: 8px;
   font-size: 26px;
+  min-width: 100%;
+
 }
 
 .Minstyle {
   background: black;
   color: #9f0404;
   font-size: x-large;
+  width: 100%;
 }
 
 .searchBar[type=text], select {
   width: 50%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 20px;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  -webkit-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+  box-shadow: -2px 4px 52px 0px rgba(0,0,0,0.75);
+
 
 }
 
@@ -227,5 +255,12 @@ a {
   align-items: center;
 }
 .show {
-  width: 50%;
+  width: 30%;
+  margin: 20px;
+
+}
+
+.comment {
+  text-align: center;
+  
 }
