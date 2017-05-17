@@ -1,7 +1,6 @@
 body {
   font-family: 'Oswald', sans-serif;
 }
-
 .redt{color:red;} .greent{color: green;} .yellowt{color: gold;} .bluet{color: blue;}
 
 .title {
@@ -99,6 +98,7 @@ a {
   padding: 7px 76px;
   text-decoration: none;
   text-shadow: 50px 0px 32px #3d768a;
+  margin: 10px;
 }
 
 .button:hover {
@@ -218,4 +218,14 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.show {
+  width: 50%;
 }
