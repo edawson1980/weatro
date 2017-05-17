@@ -9,7 +9,7 @@
 Station.destroy_all
 Vote.destroy_all
 
-Station.create(
+shady_grove = Station.create(
   locationCode: "A15",
   state: "MD",
   city: "Rockville",
@@ -17,7 +17,7 @@ Station.create(
   address: "15903 Somerville Drive",
   photo_url: "http://i.imgur.com/zTd2t9W.jpg"
 )
-Station.create(
+capital_south = Station.create(
   locationCode: "D05",
   city: "Washington",
   state: "DC",
@@ -25,7 +25,7 @@ Station.create(
   address: "355 First Street SE",
   photo_url: "http://i.imgur.com/N6XZoUh.jpg"
 )
-Station.create(
+eastern_market = Station.create(
   locationCode: "D06",
   city: "Washington",
   state: "DC",
@@ -799,15 +799,15 @@ Station.create(
 
 
 Vote.create(
-  score: "I love it!", station_id: 1
+  score: "I love it!", station: shady_grove
 )
 
 Vote.create(
-  score: "Nice Place!", station_id: 2
+  score: "Nice Place!", station: capital_south
 )
 
 Vote.create(
-  score: "Clean!", station_id: 3
+  score: "Clean!", station: eastern_market
 )
 
 Vote.create(
