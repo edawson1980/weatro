@@ -56,11 +56,11 @@ function RouterFunction($stateProvider) {
 
 
 function WeatroFactoryFunction($resource) {
-  return $resource("http://localhost:3000/stations/:id")
+  return $resource("https://infinite-escarpment-36437.herokuapp.com/stations/:id")
 }
 
 function VoteFactoryFunction($resource) {
-  return $resource("http://localhost:3000/stations/:station_id/votes/:id", {}, {
+  return $resource("https://infinite-escarpment-36437.herokuapp.com/stations/:station_id/votes/:id", {}, {
     update: {
       method: "PUT"
     }
